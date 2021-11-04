@@ -1,6 +1,7 @@
 *{
 
     background-color: blueviolet;
+    
 }
 
 
@@ -8,7 +9,7 @@ p{
 
     font-size: 17 pt;
     color:black;
-    padding-top: 30%;
+    padding-top: 1%;
 }
 
 
@@ -16,8 +17,14 @@ h1{
 
     align-self: center;
     font-size: 20pt;
-    padding-left: 10% ;
+    padding-left: 1% ;
     
+}
+
+.para1{
+
+    color:beige;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -26,7 +33,7 @@ a{
     font-size: 16pt;
 }
 
-@media screen and(min-width:600px){
+@media only screen and(min-width:600px){
     body{
 
         background-color: yellow;
@@ -35,3 +42,8 @@ a{
 
 }
 
+img{
+
+    width:100 px;
+    height: 100px;
+}
